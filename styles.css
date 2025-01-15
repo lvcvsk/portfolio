@@ -1,26 +1,8 @@
-h1 {
-  color: hotpink;
-  font-family: 'Comic Sans MS', cursive;
-  font-weight: bold; /* Makes text clearer */
-  font-size: 3rem; /* Increases clarity */
-  text-shadow: 1px 1px 2px #000, 0 0 10px red, 0 0 15px blue; /* Sharper shadows */
-  animation: wobble 1s infinite;
-  transform: rotate(-5deg);
-  background: linear-gradient(90deg, yellow, orange, lightgreen, cyan, pink, violet);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border: 5px dashed limegreen;
-  padding: 10px;
-  border-radius: 15px;
-  cursor: pointer;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Wobbly animation keyframes */
-@keyframes wobble {
-  0%, 100% {
-    transform: rotate(-5deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-}
+  
