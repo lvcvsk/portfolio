@@ -13,14 +13,13 @@ body {
 
 /* Navigation Column */
 .nav-column {
-  width: 300px;
+  width: 250px;
   height: 100vh;
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #f8f9fa;
+  background-color: #f9f9f9;
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +45,7 @@ body {
 
 .nav-button {
   padding: 12px 20px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -59,7 +58,7 @@ body {
 }
 
 .nav-button:hover {
-  background-color: #e9ecef;
+  background-color: #f0f0f0;
   transform: translateY(-2px);
 }
 
@@ -90,11 +89,18 @@ body {
 }
 
 .about-me {
-  padding: 20px;
+  padding-left: 500px;
+  padding-right: 200px;
+  padding-top: 100px;
+  padding-bottom: 400px;
+  background-color: fffff;
+}
+
+.about-me p {
+  margin-bottom: 2em;
 }
 
 section {
   margin-bottom: 60px;
-  padding: 300px;
-  background-color: whitesmoke;
+  background-color: fffff;
 }
