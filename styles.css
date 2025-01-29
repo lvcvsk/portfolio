@@ -31,6 +31,8 @@ body {
   font-weight: 500;
   margin: 0;
   line-height: 1.2;
+  letter-spacing: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .name a {
@@ -62,7 +64,7 @@ body {
 
 .bio p {
   margin-bottom: 1.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-right: 7%;
 }
 
